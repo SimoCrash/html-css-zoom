@@ -53,7 +53,7 @@ footer {
 /* main */
 
 .container {
-    max-width: 1500px;
+    max-width: 1700px;
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
@@ -62,6 +62,7 @@ footer {
 .container-img {
     width: calc(100% / 7);
     margin-bottom: 10px;
+    position: relative;
 }
 
 .container-img img {
