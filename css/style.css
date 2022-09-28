@@ -17,6 +17,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 33;
 }
 
 main {
@@ -32,6 +33,8 @@ footer {
     left: 0;
     right: 0;
     background-color: #222222;
+    z-index: 33;
+
 }
 
 /* header */
@@ -66,5 +69,21 @@ footer {
 }
 
 .container-img img {
-    height: 140px;
+    height: 142px;
+}
+
+.username {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    color: white;
+}
+
+.container-username {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 110px;
+    height: 30px;
+    background-color: rgba(41, 41, 41, 0.5);
 }
